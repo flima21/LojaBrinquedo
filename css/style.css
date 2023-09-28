@@ -1,0 +1,52 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url('../images/background-image.png');
+}
+.container-panel {
+  background-image: url('../images/team-toy-story.jpg');
+  background-size: 250px 150px; 
+  /* background: #9f6cf2; */
+  /* border-radius: 10px; */
+  height: 650px;
+  width: 100%;
+  align-items: center;
+}
+
+.container-label {
+  text-align: center;
+}
+
+.container-time {
+  display: inline !important;
+  text-align: center;
+  align-items: center;
+  margin-top: 60px;
+  flex-direction: column;
+  margin-left: 30%;
+}
+
+.label-time {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 200px;
+  margin-left: 100px;
+  /* display: block; */
+}
+
+.box-time {
+  border: 2px solid #000;
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+  display: inline;
+  border: none;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 200px;
+}
+
